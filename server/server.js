@@ -12,4 +12,4 @@ app.use(express.static(path.join(__dirname, '../client')))
 
 app.use('/api', apiRouter);
 
-app.listen(3000)
+app.listen(3000);
